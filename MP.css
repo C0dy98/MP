@@ -1,0 +1,1021 @@
+    body {
+    background-color: blue;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    h1 {
+    background-color: yellow;
+    height: 100px;
+    border-radius: 10px;
+    }
+    h2 {
+    background-color: orange;
+    margin-left: 25px;
+    margin-right: 25px;
+    }
+    h3 {
+    background-color: red;
+    width: 20%;
+    height: 600px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 25px;
+    border-radius: 15px;
+    }
+    h4 {
+    background-color: lime;
+    width: 75%;
+    height: 1000px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 25px;
+    margin-right: 20px;
+    border-radius: 15px;
+    }      
+    footer {
+        color:whitesmoke;
+        margin-bottom: 10px;
+    }
+    mark {
+        background: orange;
+        color: black;
+    }
+   .grid-container{
+        background-color: lime;
+        display: grid;
+        display: inline-grid;
+        grid-gap: 10px;
+        margin-top: 25px;
+        margin-left: 25px;
+        margin-right: 25px;
+        border-radius: 10px;
+        
+    }
+    .item1 {
+        background-color: black;
+        color: white;
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 1;
+        grid-row-end: 1;
+        height:50px;
+        width:200px;
+        border-radius: 10px;
+    }
+    .item2 {
+        background-color: black;
+        color: white;
+        grid-column-start: 2;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 1;
+        height:50px;
+        width:200px;
+        border-radius: 10px;
+    }
+    .item3 {
+        background-color: black;
+        color: white;
+        grid-column-start: 3;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 1;
+        height:50px;
+        width:200px;
+        border-radius: 10px;
+    }
+    .item4 {
+        background-color: black;
+        color: white;
+        grid-column-start: 4;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 1;
+        height:50px;
+        width:200px;
+        border-radius: 10px;
+    }
+    .item5 {
+        background-color: black;
+        color: white;
+        grid-column-start: 5;
+        grid-column-end: 5;
+        grid-row-start: 1;
+        grid-row-end: 1;
+        height:50px;
+        width:200px;
+        border-radius: 10px;
+    }
+    .item6 {
+        background-color: red;
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 2;
+        grid-row-end: 2;
+        height:50px;
+        width:200px;
+        border-radius: 10px;
+        
+    }
+    .item7 {
+        background-color: red;
+        grid-column-start: 2;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 2;
+        height:50px;
+        width:200px;
+        border-radius: 10px;
+    }
+    .item8 {
+        background-color: red;
+        grid-column-start: 3;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 2;
+        height:50px;
+        width:200px;
+        border-radius: 10px;
+    }
+    .item9 {
+        background-color: red;
+        grid-column-start: 4;
+        grid-column-end: 4;
+        grid-row-start: 2;
+        grid-row-end: 2;
+        height:50px;
+        width:200px;
+        border-radius: 10px;
+    }
+    .item10 {
+        background-color: red;
+        grid-column-start: 5;
+        grid-column-end: 5;
+        grid-row-start: 2;
+        grid-row-end: 2;
+        height:50px;
+        width:200px;
+        border-radius: 10px;
+    }
+    .item11 {
+        background-color: red;
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 3;
+        grid-row-end: 3;
+        height:50px;
+        width:200px;
+        border-radius: 10px;
+        
+    }
+    .item12 {
+        background-color: red;
+        grid-column-start: 2;
+        grid-column-end: 2;
+        grid-row-start: 3;
+        grid-row-end: 3;
+        height:50px;
+        width:200px;
+        border-radius: 10px;
+    }
+    .item13 {
+        background-color: red;
+        grid-column-start: 3;
+        grid-column-end: 3;
+        grid-row-start: 3;
+        grid-row-end: 3;
+        height:50px;
+        width:200px;
+        border-radius: 10px;
+    }
+    .item14 {
+        background-color: red;
+        grid-column-start: 4;
+        grid-column-end: 4;
+        grid-row-start: 3;
+        grid-row-end: 3;
+        height:50px;
+        width:200px;
+        border-radius: 10px;
+    }
+    .item15 {
+        background-color: red;
+        grid-column-start: 5;
+        grid-column-end: 5;
+        grid-row-start: 3;
+        grid-row-end: 3;
+        height:50px;
+        width:200px;
+        border-radius: 10px;
+    }
+    .item16 {
+        background-color: red;
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 4;
+        grid-row-end: 4;
+        height:50px;
+        width:200px;
+        border-radius: 10px;
+        
+    }
+    .item17 {
+        background-color: red;
+        grid-column-start: 2;
+        grid-column-end: 2;
+        grid-row-start: 4;
+        grid-row-end: 4;
+        height:50px;
+        width:200px;
+        border-radius: 10px;
+    }
+    .item18 {
+        background-color: red;
+        grid-column-start: 3;
+        grid-column-end: 3;
+        grid-row-start: 4;
+        grid-row-end: 4;
+        height:50px;
+        width:200px;
+        border-radius: 10px;
+    }
+    .item19 {
+        background-color: red;
+        grid-column-start: 4;
+        grid-column-end: 4;
+        grid-row-start: 4;
+        grid-row-end: 4;
+        height:50px;
+        width:200px;
+        border-radius: 10px;
+    }
+    .item20 {
+        background-color: red;
+        grid-column-start: 5;
+        grid-column-end: 5;
+        grid-row-start: 4;
+        grid-row-end: 4;
+        height:50px;
+        width:200px;
+        border-radius: 10px;
+    }  
+    .item21 {
+        background-color: red;
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 5;
+        grid-row-end: 5;
+        height:50px;
+        width:200px;
+        border-radius: 10px;
+    }
+    .item22 {
+        background-color: red;
+        grid-column-start: 2;
+        grid-column-end: 2;
+        grid-row-start: 5;
+        grid-row-end: 5;
+        height:50px;
+        width:200px;
+        border-radius: 10px;
+    }
+    .item23 {
+        background-color: red;
+        grid-column-start: 3;
+        grid-column-end: 3;
+        grid-row-start: 5;
+        grid-row-end: 5;
+        height:50px;
+        width:200px;
+        border-radius: 10px;
+    }
+    .item24 {
+        background-color: red;
+        grid-column-start: 4;
+        grid-column-end: 4;
+        grid-row-start: 5;
+        grid-row-end: 5;
+        height:50px;
+        width:200px;
+        border-radius: 10px;
+    }
+    .item25 {
+        background-color: red;
+        grid-column-start: 5;
+        grid-column-end: 5;
+        grid-row-start: 5;
+        grid-row-end: 5;
+        height:50px;
+        width:200px;
+        border-radius: 10px;
+    }
+    .item26 {
+        background-color: red;
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 6;
+        grid-row-end: 6;
+        height:50px;
+        width:200px;
+        border-radius: 10px;  
+    }
+    .item27 {
+        background-color: red;
+        grid-column-start: 2;
+        grid-column-end: 2;
+        grid-row-start: 6;
+        grid-row-end: 6;
+        height:50px;
+        width:200px;
+        border-radius: 10px;
+    }
+    .item28 {
+        background-color: red;
+        grid-column-start: 3;
+        grid-column-end: 3;
+        grid-row-start: 6;
+        grid-row-end: 6;
+        height:50px;
+        width:200px;
+        border-radius: 10px;
+    }
+    .item29 {
+        background-color: red;
+        grid-column-start: 4;
+        grid-column-end: 4;
+        grid-row-start: 6;
+        grid-row-end: 6;
+        height:50px;
+        width:200px;
+        border-radius: 10px;
+    }
+    .item30 {
+        background-color: red;
+        grid-column-start: 5;
+        grid-column-end: 5;
+        grid-row-start: 6;
+        grid-row-end: 6;
+        height:50px;
+        width:200px;
+        border-radius: 10px;
+    }
+    .item31 {
+        background-color: red;
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 7;
+        grid-row-end: 7;
+        height:50px;
+        width:200px;
+        border-radius: 10px;
+    }
+    .item32 {
+        background-color: red;
+        grid-column-start: 2;
+        grid-column-end: 2;
+        grid-row-start: 7;
+        grid-row-end: 7;
+        height:50px;
+        width:200px;
+        border-radius: 10px;
+    }
+    .item33 {
+        background-color: red;
+        grid-column-start: 3;
+        grid-column-end: 3;
+        grid-row-start: 7;
+        grid-row-end: 7;
+        height:50px;
+        width:200px;
+        border-radius: 10px;
+    }
+    .item34 {
+        background-color: red;
+        grid-column-start: 4;
+        grid-column-end: 4;
+        grid-row-start: 7;
+        grid-row-end: 7;
+        height:50px;
+        width:200px;
+        border-radius: 10px;
+    }
+    .item35 {
+        background-color: red;
+        grid-column-start: 5;
+        grid-column-end: 5;
+        grid-row-start: 7;
+        grid-row-end: 7;
+        height:50px;
+        width:200px;
+        border-radius: 10px;
+    }
+    .item36 {
+        background-color: red;
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 8;
+        grid-row-end: 8;
+        height:50px;
+        width:200px;
+        border-radius: 10px;
+    }
+    .item37 {
+        background-color: red;
+        grid-column-start: 2;
+        grid-column-end: 2;
+        grid-row-start: 8;
+        grid-row-end: 8;
+        height:50px;
+        width:200px;
+        border-radius: 10px;
+    }
+    .item38 {
+        background-color: red;
+        grid-column-start: 3;
+        grid-column-end: 3;
+        grid-row-start: 8;
+        grid-row-end: 8;
+        height:50px;
+        width:200px;
+        border-radius: 10px;
+    }
+    .item39 {
+        background-color: red;
+        grid-column-start: 4;
+        grid-column-end: 4;
+        grid-row-start: 8;
+        grid-row-end: 8;
+        height:50px;
+        width:200px;
+        border-radius: 10px;
+    }
+    .item40 {
+        background-color: red;
+        grid-column-start: 5;
+        grid-column-end: 5;
+        grid-row-start: 8;
+        grid-row-end: 8;
+        height:50px;
+        width:200px;
+        border-radius: 10px;
+    }
+    .item41 {
+        background-color: red;
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 9;
+        grid-row-end: 9;
+        height:50px;
+        width:200px;
+        border-radius: 10px;  
+    }
+    .item42 {
+        background-color: red;
+        grid-column-start: 2;
+        grid-column-end: 2;
+        grid-row-start: 9;
+        grid-row-end: 9;
+        height:50px;
+        width:200px;
+        border-radius: 10px;
+    }
+    .item43 {
+        background-color: red;
+        grid-column-start: 3;
+        grid-column-end: 3;
+        grid-row-start: 9;
+        grid-row-end: 9;
+        height:50px;
+        width:200px;
+        border-radius: 10px;
+    }
+    .item44 {
+        background-color: red;
+        grid-column-start: 4;
+        grid-column-end: 4;
+        grid-row-start: 9;
+        grid-row-end: 9;
+        height:50px;
+        width:200px;
+        border-radius: 10px;
+    }
+    .item45 {
+        background-color: red;
+        grid-column-start: 5;
+        grid-column-end: 5;
+        grid-row-start: 9;
+        grid-row-end: 9;
+        height:50px;
+        width:200px;
+        border-radius: 10px;
+    }
+    .item46 {
+        background-color: red;
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 10;
+        grid-row-end: 10;
+        height:50px;
+        width:200px;
+        border-radius: 10px;
+    }
+    .item47 {
+        background-color: red;
+        grid-column-start: 2;
+        grid-column-end: 2;
+        grid-row-start: 10;
+        grid-row-end: 10;
+        height:50px;
+        width:200px;
+        border-radius: 10px;
+    }
+    .item48 {
+        background-color: red;
+        grid-column-start: 3;
+        grid-column-end: 3;
+        grid-row-start: 10;
+        grid-row-end: 10;
+        height:50px;
+        width:200px;
+        border-radius: 10px;
+    }
+    .item49 {
+        background-color: red;
+        grid-column-start: 4;
+        grid-column-end: 4;
+        grid-row-start: 10;
+        grid-row-end: 10;
+        height:50px;
+        width:200px;
+        border-radius: 10px;
+    }
+    .item50 {
+        background-color: red;
+        grid-column-start: 5;
+        grid-column-end: 5;
+        grid-row-start: 10;
+        grid-row-end: 10;
+        height:50px;
+        width:200px;
+        border-radius: 10px;
+    }
+    .item51 {
+        background-color: red;
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 11;
+        grid-row-end: 11;
+        height:50px;
+        width:200px;
+        border-radius: 10px;
+        
+    }
+    .item52 {
+        background-color: red;
+        grid-column-start: 2;
+        grid-column-end: 2;
+        grid-row-start: 11;
+        grid-row-end: 11;
+        height:50px;
+        width:200px;
+        border-radius: 10px;
+    }
+    .item53 {
+        background-color: red;
+        grid-column-start: 3;
+        grid-column-end: 3;
+        grid-row-start: 11;
+        grid-row-end: 11;
+        height:50px;
+        width:200px;
+        border-radius: 10px;
+    }
+    .item54 {
+        background-color: red;
+        grid-column-start: 4;
+        grid-column-end: 4;
+        grid-row-start: 11;
+        grid-row-end: 11;
+        height:50px;
+        width:200px;
+        border-radius: 10px;
+    }
+    .item55 {
+        background-color: red;
+        grid-column-start: 5;
+        grid-column-end: 5;
+        grid-row-start: 11;
+        grid-row-end: 11;
+        height:50px;
+        width:200px;
+        border-radius: 10px;
+    }
+    .item56 {
+        background-color: red;
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 12;
+        grid-row-end: 12;
+        height:50px;
+        width:200px;
+        border-radius: 10px; 
+    }
+    .item57 {
+        background-color: red;
+        grid-column-start: 2;
+        grid-column-end: 2;
+        grid-row-start: 12;
+        grid-row-end: 12;
+        height:50px;
+        width:200px;
+        border-radius: 10px;
+    }
+    .item58 {
+        background-color: red;
+        grid-column-start: 3;
+        grid-column-end: 3;
+        grid-row-start: 12;
+        grid-row-end: 12;
+        height:50px;
+        width:200px;
+        border-radius: 10px;
+    }
+    .item59 {
+        background-color: red;
+        grid-column-start: 4;
+        grid-column-end: 4;
+        grid-row-start: 12;
+        grid-row-end: 12;
+        height:50px;
+        width:200px;
+        border-radius: 10px;
+    }
+    .item60 {
+        background-color: red;
+        grid-column-start: 5;
+        grid-column-end: 5;
+        grid-row-start: 12;
+        grid-row-end: 12;
+        height:50px;
+        width:200px;
+        border-radius: 10px;
+    }
+    .item61 {
+        background-color: red;
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 13;
+        grid-row-end: 13;
+        height:50px;
+        width:200px;
+        border-radius: 10px;
+    }
+    .item62 {
+        background-color: red;
+        grid-column-start: 2;
+        grid-column-end: 2;
+        grid-row-start: 13;
+        grid-row-end: 13;
+        height:50px;
+        width:200px;
+        border-radius: 10px;
+    }
+    .item63 {
+        background-color: red;
+        grid-column-start: 3;
+        grid-column-end: 3;
+        grid-row-start: 13;
+        grid-row-end: 13;
+        height:50px;
+        width:200px;
+        border-radius: 10px;
+    }
+    .item64 {
+        background-color: red;
+        grid-column-start: 4;
+        grid-column-end: 4;
+        grid-row-start: 13;
+        grid-row-end: 13;
+        height:50px;
+        width:200px;
+        border-radius: 10px;
+    }
+    .item65 {
+        background-color: red;
+        grid-column-start: 5;
+        grid-column-end: 5;
+        grid-row-start: 13;
+        grid-row-end: 13;
+        height:50px;
+        width:200px;
+        border-radius: 10px;
+    }
+    .item66 {
+        background-color: red;
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 14;
+        grid-row-end: 14;
+        height:50px;
+        width:200px;
+        border-radius: 10px;
+        
+    }
+    .item67 {
+        background-color: red;
+        grid-column-start: 2;
+        grid-column-end: 2;
+        grid-row-start: 14;
+        grid-row-end: 14;
+        height:50px;
+        width:200px;
+        border-radius: 10px;
+    }
+    .item68 {
+        background-color: red;
+        grid-column-start: 3;
+        grid-column-end: 3;
+        grid-row-start: 14;
+        grid-row-end: 14;
+        height:50px;
+        width:200px;
+        border-radius: 10px;
+    }
+    .item69 {
+        background-color: red;
+        grid-column-start: 4;
+        grid-column-end: 4;
+        grid-row-start: 14;
+        grid-row-end: 14;
+        height:50px;
+        width:200px;
+        border-radius: 10px;
+    }
+    .item70 {
+        background-color: red;
+        grid-column-start: 5;
+        grid-column-end: 5;
+        grid-row-start: 14;
+        grid-row-end: 14;
+        height:50px;
+        width:200px;
+        border-radius: 10px;
+    }
+    .item71 {
+        background-color: red;
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 15;
+        grid-row-end: 15;
+        height:50px;
+        width:200px;
+        border-radius: 10px; 
+    }
+    .item72 {
+        background-color: red;
+        grid-column-start: 2;
+        grid-column-end: 2;
+        grid-row-start: 15;
+        grid-row-end: 15;
+        height:50px;
+        width:200px;
+        border-radius: 10px;
+    }
+    .item73 {
+        background-color: red;
+        grid-column-start: 3;
+        grid-column-end: 3;
+        grid-row-start: 15;
+        grid-row-end: 15;
+        height:50px;
+        width:200px;
+        border-radius: 10px;
+    }
+    .item74 {
+        background-color: red;
+        grid-column-start: 4;
+        grid-column-end: 4;
+        grid-row-start: 15;
+        grid-row-end: 15;
+        height:50px;
+        width:200px;
+        border-radius: 10px;
+    }
+    .item75 {
+        background-color: red;
+        grid-column-start: 5;
+        grid-column-end: 5;
+        grid-row-start: 15;
+        grid-row-end: 15;
+        height:50px;
+        width:200px;
+        border-radius: 10px;
+    }  
+    .item76 {
+        background-color: red;
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 16;
+        grid-row-end: 16;
+        height:50px;
+        width:200px;
+        border-radius: 10px; 
+    }
+    .item77 {
+        background-color: red;
+        grid-column-start: 2;
+        grid-column-end: 2;
+        grid-row-start: 16;
+        grid-row-end: 16;
+        height:50px;
+        width:200px;
+        border-radius: 10px;
+    }
+    .item78 {
+        background-color: red;
+        grid-column-start: 3;
+        grid-column-end: 3;
+        grid-row-start: 16;
+        grid-row-end: 16;
+        height:50px;
+        width:200px;
+        border-radius: 10px;
+    }
+    .item79 {
+        background-color: red;
+        grid-column-start: 4;
+        grid-column-end: 4;
+        grid-row-start: 16;
+        grid-row-end: 16;
+        height:50px;
+        width:200px;
+        border-radius: 10px;
+    }
+    .item80 {
+        background-color: red;
+        grid-column-start: 5;
+        grid-column-end: 5;
+        grid-row-start: 16;
+        grid-row-end: 16;
+        height:50px;
+        width:200px;
+        border-radius: 10px;
+    }
+    .altitem1{
+        background-color: black;
+        color: white;
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 1;
+        grid-row-end: 1;
+        height:50px;
+        width:200px;
+        border-radius: 10px;
+    }
+    .altitem2{
+        background-color: black;
+        color: white;
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 2;
+        grid-row-end: 2;
+        height:50px;
+        width:200px;
+        border-radius: 10px;
+    }
+    .altitem3{
+        background-color: black;
+        color: white;
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 3;
+        grid-row-end: 3;
+        height:50px;
+        width:200px;
+        border-radius: 10px;
+    }
+    .altitem4{
+        background-color: black;
+        color: white;
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 4;
+        grid-row-end: 4;
+        height:50px;
+        width:200px;
+        border-radius: 10px;
+    }
+    .altitem5{
+        background-color: black;
+        color: white;
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 5;
+        grid-row-end: 5;
+        height:50px;
+        width:200px;
+        border-radius: 10px;
+    }
+    .altitem6{
+        background-color: black;
+        color: white;
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 6;
+        grid-row-end: 6;
+        height:50px;
+        width:200px;
+        border-radius: 10px;
+    }
+    .altitem7{
+        background-color: black;
+        color: white;
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 7;
+        grid-row-end: 7;
+        height:50px;
+        width:200px;
+        border-radius: 10px;
+    }
+    .altitem8{
+        background-color: black;
+        color: white;
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 8;
+        grid-row-end: 8;
+        height:50px;
+        width:200px;
+        border-radius: 10px;
+    }
+    .altitem9{
+        background-color: black;
+        color: white;
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 9;
+        grid-row-end: 9;
+        height:50px;
+        width:200px;
+        border-radius: 10px;
+    }
+    .altitem10{
+        background-color: black;
+        color: white;
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 10;
+        grid-row-end: 10;
+        height:50px;
+        width:200px;
+        border-radius: 10px;            
+    }
+    button {
+        background-color: blue;
+        color: white;
+    }
+    .b1r{
+        background-color: black;
+    }
+    .b2r{
+        background-color: black;
+    }
+    .b3r{
+        background-color: black;
+    }
+    .b4r{
+        background-color: black;
+    }
+    .b5r{
+        background-color: black;
+    }
+    .b6r{
+        background-color: black;
+    }
+    .b7r{
+        background-color: black;
+    }
+    .b8r{
+        background-color: black;
+    }
+    .b9r{
+        background-color: black;
+    }
+    .b10r{
+        background-color: black;
+    }
+    .b11r{
+        background-color: black;
+    }
+    .b12r{
+        background-color: black;
+    }
+    .b13r{
+        background-color: black;
+    }
+    .b14r{
+        background-color: black;
+    }
+    .b15r{
+        background-color: black;
+    }

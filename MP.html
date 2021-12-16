@@ -1,0 +1,202 @@
+<!DOCTYPE>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Major Project</title>
+  <!-- external and on-page CSS goes here -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" href="MP.css" media="all">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="MP.css" media="all">
+  <style>
+    .checked {
+      color: orange;
+    }
+
+    .fa-thumbs-up {
+      font-size: 40px;
+    }
+
+    .fa:hover {
+      color: yellow;
+      font-size: 40px;
+    }
+  </style>
+  <!-- external and on-page JavaScript goes here -->
+  <script src="mp.js"></script>
+
+</head>
+
+<body>
+  <h1>Song Inventory</h1>
+  <h2>
+    <div class="search_box">
+      <form action="" id="form2">
+          <div>
+              <input type="text" id="search">
+              <input type="button" id="submit_form" onclick="checkInput()" value="Submit">
+          </div>
+      </form>
+  </div>
+  </h2>
+  <h3>Playlist:<br>
+    <div class="playlist">
+      <div class="altitem1">1</div>
+      <div class="altitem2">2</div>
+      <div class="altitem3">3</div>
+      <div class="altitem4">4</div>
+      <div class="altitem5">5</div>
+      <div class="altitem6">6</div>
+      <div class="altitem7">7</div>
+      <div class="altitem8">8</div>
+      <div class="altitem9">9</div>
+      <div class="altitem10">10</div>
+  </h3>
+
+  <h4>Song list: <br>
+    <div class="grid-container">
+      <div class="item1">Song:</div>
+      <div class="item2">Artist (Last Name):</div>
+      <div class="item3">Artist (First Name):</div>
+      <div class="item4">Like / Dislike:</div>
+      <div class="item5">Add to Playlist:</div>
+
+      <div class="item6">Bleeding Love</div>
+      <div class="item7">Lewis</div>
+      <div class="item8">Leona</div>
+      <div class="item9">
+        <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+
+
+      </div>
+
+      <!--><div class="item10"><button class="b1">Add</button><button class="b1r">Remove</button></div></!-->
+      <div class="item11">Dancing In The Moonlight</div>
+      <div class="item12"></div>
+      <div class="item13">Toploader</div>
+      <div class="item14">
+        <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+
+
+      </div>
+      <div class="item15"><button class="b2">Add</button><button class="b2r">Remove</button></div>
+      <div class="item16">Eye of the Tiger</div>
+      <div class="item17"></div>
+      <div class="item18">Survivor</div>
+      <div class="item19">
+        <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+
+
+      </div>
+      <div class="item20"><button class="b3">Add</button><button class="b3r">Remove</button></div>
+      <div class="item21">I Can't Feel My Face</div>
+      <div class="item22">Weekend</div>
+      <div class="item23">The</div>
+      <div class="item24">
+        <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+
+      </div>
+      <div class="item25"><button class="b4">Add</button><button class="b4r">Remove</button></div>
+      <div class="item26">I'm Yours</div>
+      <div class="item27">Mraz</div>
+      <div class="item28">Jason</div>
+      <div class="item29">
+        <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+
+
+      </div>
+      <div class="item30"><button class="b5">Add</button><button class="b5r">Remove</button></div>
+      <div class="item31">Missin You Crazy</div>
+      <div class="item32"></div>
+      <div class="item33">Russ</div>
+      <div class="item34">
+        <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+
+      </div>
+      <div class="item35"><button class="b6">Add</button><button class="b6r">Remove</button></div>
+      <div class="item36">Moonlight Sonata</div>
+      <div class="item37">Beethoven</div>
+      <div class="item38">Ludwig</div>
+      <div class="item39">
+        <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+
+      </div>
+      <div class="item40"><button class="b7">Add</button><button class="b7r">Remove</button></div>
+      <div class="item41">Papparazzi</div>
+      <div class="item42">Gaga</div>
+      <div class="item43">Lady</div>
+      <div class="item44">
+        <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+
+
+      </div>
+      <div class="item45"><button class="b8">Add</button><button class="b8r">Remove</button></div>
+      <div class="item46">Paper Rings</div>
+      <div class="item47">Swift</div>
+      <div class="item48">Taylor</div>
+      <div class="item49">
+        <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+
+  
+      </div>
+      <div class="item50"><button class="b9">Add</button><button class="b9r">Remove</button></div>
+      <div class="item51">Phone</div>
+      <div class="item52"></div>
+      <div class="item53">Lizzo</div>
+      <div class="item54">
+        <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+
+  
+      </div>
+      <div class="item55"><button class="b10">Add</button><button class="b10r">Remove</button></div>
+      <div class="item56">Rewrite The Stars</div>
+      <div class="item57">Efron</div>
+      <div class="item58">Zendaya & Zac</div>
+      <div class="item59">
+        <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+
+   
+      </div>
+      <div class="item60"><button class="b11">Add</button><button class="b11r">Remove</button></div>
+      <div class="item61">Something Between Us</div>
+      <div class="item62"></div>
+      <div class="item63">Daftpunk</div>
+      <div class="item64">
+        <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+
+   
+      </div>
+      <div class="item65"><button class="b12">Add</button><button class="b12r">Remove</button></div>
+      <div class="item66">Today</div>
+      <div class="item67">Pumpkins</div>
+      <div class="item68">The Smashing</div>
+      <div class="item69">
+        <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+
+  
+      </div>
+      <div class="item70"><button class="b13">Add</button><button class="b13r">Remove</button></div>
+      <div class="item71">Watch Me (Whip / Nae Nae)</div>
+      <div class="item72"></div>
+      <div class="item73">Silento</div>
+      <div class="item74">
+        <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+
+    
+      </div>
+      <div class="item75"><button class="b14">Add</button><button class="b14r">Remove</button></div>
+      <div class="item76">1985</div>
+      <div class="item77">Soup</div>
+      <div class="item78">Bowling for</div>
+      <div class="item79">
+        <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+
+      
+      </div>
+      <div class="item80"><button class="b15">Add</button><button class="b15r">Remove</div>
+    </div>
+  </h4>
+  <footer>This website was made by Theo McBurney, Cody Osborn, and Fallon Lytwyn for our Major Project 2 for DTC 477 at Washington State University.</footer>
+</body>
+</html>
